@@ -17,7 +17,7 @@
 
 ### 本文说明
 
-结合工作中遇到的使用场景介绍工作中常用命令，适用于快速上手。学习完成后你可以熟练使用arthas排查Java程序线上问题。本文中介绍的所有命令都不需要记忆，你可以在 [github](https://github.com/wearexteam/teach-demo)
+本教程适用于有实际开发经验的开发者。本文主要结合工作中的使用场景介绍常用命令，快速上手。学习完成后你可以熟练使用arthas排查Java程序线上问题。本文中介绍的所有命令都不需要记忆，你可以在 [github](https://github.com/wearexteam/teach-demo)
 或者官网查询相关命令。
 
 ## 快速上手
@@ -25,12 +25,13 @@
 ### 下载安装
 
 arthas是一个jar包，将其下载到本地目录即可。
+mac m1芯片下载地址[arthas 3.5.5](https://github.com/alibaba/arthas/releases)
 
 ```shell
 curl -O https://arthas.aliyun.com/arthas-boot.jar
 ```
 
-下载并打包实验所需要的Java代码。
+下载并打包实验所需要的Java代码，配置好maven和java，java版本采用11，可在pom.xml修改版本。
 
 ```shell
 #下载
