@@ -17,8 +17,8 @@
 
 ### 本文说明
 
-本教程适用于有实际开发经验的开发者。本文主要结合工作中的使用场景介绍常用命令，快速上手。学习完成后你可以熟练使用arthas排查Java程序线上问题。本文中介绍的所有命令都不需要记忆，你可以在 [github](https://github.com/wearexteam/teach-demo)
-或者官网查询相关命令。
+本教程适用于有实际开发经验的开发者，不涉及Java开发环境的搭建及相关工具的简单使用。主要结合工作中的使用场景介绍常用命令，快速上手。学习完成后你可以熟练使用arthas排查Java程序线上问题。文中介绍的所有命令都不需要记忆，你可以在 [本文的github](https://github.com/wearexteam/teach-demo)
+或者[Arthas官网](https://arthas.aliyun.com) 查询相关命令。
 
 ## 快速上手
 
